@@ -1,6 +1,6 @@
 import asyncio
 
-from src.revgrok import GrokClient
+from revgrok import GrokClient
 
 
 async def main():
