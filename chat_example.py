@@ -4,7 +4,7 @@ from revgrok import GrokClient
 
 
 async def main():
-    cookie = "Your cookie here" # put your cookie here
+    cookie = "Your cookie here"  # put your cookie here
     model = "grok-3"
     prompt = "9.8 and 9.11 which is bigger?"
     client = GrokClient(cookie=cookie)

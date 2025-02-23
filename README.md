@@ -23,7 +23,7 @@ To use this library, follow these simple steps:
 
 ```python
 import asyncio
-from src.revgrok import GrokClient
+from revgrok import GrokClient
 
 async def main():
     cookie = "Your cookie here"  # Replace with your actual cookie
